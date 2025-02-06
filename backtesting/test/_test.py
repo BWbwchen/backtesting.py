@@ -314,6 +314,8 @@ class TestBacktest(TestCase):
                 'Start': pd.Timestamp('2004-08-19 00:00:00'),
                 'Win Rate [%]': 46.96969696969697,
                 'Worst Trade [%]': -18.39887353835481,
+                'UI Index [%]': 18.984275238194492,
+                'UPI Index': 1.1156736587541511,
         })
 
         def almost_equal(a, b):
